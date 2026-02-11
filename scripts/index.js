@@ -54,13 +54,11 @@ function verificar(){
     const idade = document.getElementById("idade3").value;
     const mensagem = document.getElementById("mensagem-desafio3");
 
-    if (nome > 0 || idade > 0 ){
+    if (nome.length > 0 && idade > 0 ){
         mensagem.innerText = "Cadastro Concluído!";
         mensagem.style.color = "green";
-    }else if (nome == ""){
-        mensagem.innerText = "Error"
-        mensagem.style.color = "red"
-    }else if (idade =="")
+    }else if (nome == "" || idade == ""){
         mensagem.innerText = "Error"
         mensagem.style.color = "red"
     }
+}

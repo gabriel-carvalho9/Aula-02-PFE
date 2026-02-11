@@ -7,19 +7,66 @@
     <title>Formulários Inteligentes</title>
 </head>
 <body>
-    <form id="form-incricao">
-        <label>Nome:</label>
-        <input type="text" id="nome">
-        <br>
-        <label>Idade:</label>
-        <input type="number" id="idade">
-        <br>
-        <label>Nível de Experiência (1 a 10)</label>
-        <input type="number" id="nivel">
-        <br>
-        <button type="button" onclick="validar()">Enviar</button>
+    <form>
+        <section id="form">
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Insera seu nome">
+            <br>
+            <label>Idade:</label>
+            <input type="number" id="idade">
+            <br>
+            <label>Nível de Experiência (1 a 10)</label>
+            <input type="number" id="nivel">
+            <br>
+            <button type="button" id="button1" onclick="validar()">Enviar</button>
+        </section>
     </form>
     <p id="mensagem"></p>
+    <form id="desafio1">
+        <section id="form">
+            <label>Senha:</label>
+            <input type="password" id="senha1" placeholder="Digite a Senha" required>
+            <br>
+            <label>Verificar Senha:</label>
+            <input type="password" id="senha2" placeholder="Verificar Senha" required>
+            <br>
+            <br>
+            <button type="button" id="button2" onclick="validarSenha()">Verificar Senha</button>
+        </section>
+    </form>
+
+    <p id="mensagem-desafio1"></p>
+
+    <form id="desafio2">
+        <section id="form">
+            <label>Idade 2:</label>
+            <input type="number" id="idade2">
+            <br>
+            <label>Cargo</label>
+            <br>
+            <input type="radio" id="estudante" name="estudante">Estudante
+            <input type="radio" id="nao-estudante" name="estudante">Não Estudante
+            <br>
+            <br>
+            <button type="button" id="button2" onclick="validarDesconto()">Verificar Desconto</button>
+        </section>
+    </form>
+
+    <p id="mensagem-desafio2"></p>
+
+    <form id="desafio3">
+        <section id="form">
+            <label>Nome 2:</label>
+            <input type="text" id="nome2" placeholder="Insera seu nome">
+            <br>
+            <label>Idade 3:</label>
+            <input type="number" id="idade3">
+            <br>
+            <br>
+            <button type="button" id="button1" onclick="verificar()">Verificar</button>
+        </section>
+    </form>
+    <p id="mensagem-desafio3"></p>
     <script src="..\scripts\index.js"></script>
 </body>
 </html>

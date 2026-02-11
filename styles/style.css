@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+body{
+    background-color: aqua;
+    font-size: 18px;
+    margin-left: 32.6rem;
+}
+section{
+    box-sizing: border-box;
+    border-radius: 35px;
+    background-color: rgb(84, 84, 203);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+}
+
+#button1 {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: "Knewave", system-ui;
+}
+
+#button2 {
+    background-color: white;
+    width: 120px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: "Knewave", system-ui;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  width: 70%;
+  padding: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: white;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+}

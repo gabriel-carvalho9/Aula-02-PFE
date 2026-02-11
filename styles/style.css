@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 body{
-    background-color: aqua;
+    font-family: "Roboto Mono", monospace;;
+    background-color: white;
     font-size: 18px;
-    margin-left: 32.6rem;
+    margin-left: 33.6rem;
 }
 section{
     box-sizing: border-box;
     border-radius: 35px;
-    background-color: rgb(84, 84, 203);
+    background-color: white;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 350px;border-color: black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 #button1 {

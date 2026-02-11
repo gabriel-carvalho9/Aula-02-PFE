@@ -58,7 +58,7 @@ function verificar(){
         mensagem.innerText = "Cadastro Concluído!";
         mensagem.style.color = "green";
     }else if (nome == "" || idade == ""){
-        mensagem.innerText = "Error"
-        mensagem.style.color = "red"
+        mensagem.innerText = "Error";
+        mensagem.style.color = "red";
     }
 }

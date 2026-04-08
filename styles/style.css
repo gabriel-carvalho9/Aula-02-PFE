@@ -1,53 +1,311 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-body{
-    font-family: "Roboto Mono", monospace;;
+@media (max-width: 480px) {
+    body{
+        align-items: center;
+        display: column;
+        justify-content: center;
+        font-family: "Roboto Mono", monospace;;
+        background-color: white;
+        font-size: 18px;
+        background-color: blue;
+    }
+    section{
+        box-sizing: border-box;
+        border-radius: 35px;
+        background-color: white;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px;
+        width: 100%;
+        height: 350px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    #button1 {
+        background-color: white;
+        width: 100px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 15px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button2 {
+        background-color: white;
+        width: 120px;
+        height: 65px;
+        border-radius: 40px;
+        font-size: 20px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button3 {
+        background-color: white;
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 15px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button4 {
+        background-color: white;
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 20px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="password"] {
+    width: 70%;
+    align-self: center;
+    padding: 5px;
+    border: 2px solid black;
     background-color: white;
-    font-size: 18px;
-    margin-left: 33.6rem;
-}
-section{
-    box-sizing: border-box;
-    border-radius: 35px;
-    background-color: white;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 450px;
-    height: 350px;border-color: black;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 10px solid black;
-    border-bottom: 10px solid black;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    }
+
+    label {
+        width: 70%;
+        align-self: center;
+        padding: 5px;
+        background-color: white;
+        font-size: 16px;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+        align-self: center;
+    }
+    
+    .estudantes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15%;
+    }
 }
 
-#button1 {
+@media (min-width: 481px) and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto Mono", monospace;;
+        background-color: white;
+        font-size: 16px;
+        background-color: lightgreen;
+    }
+    section{
+        box-sizing: border-box;
+        border-radius: 35px;
+        background-color: white;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        width: 500px;
+        height: 300px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    #button1 {
+        background-color: white;
+        width: 80px;
+        height: 30px;
+        border-radius: 40px;
+        font-size: 18px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button2 {
+        background-color: white;
+        width: 120px;
+        height: 60px;
+        border-radius: 40px;
+        font-size: 16px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button3 {
+        background-color: white;
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 15px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button4 {
+        background-color: white;
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 16px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="password"] {
+    width: 70%;
+    align-self: center;
+    padding: 5px;
+    border: 2px solid black;
     background-color: white;
-    width: 100px;
-    height: 50px;
-    border-radius: 40px;
-    font-size: 20px;
-    font-family: "Knewave", system-ui;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    }
+
+    label {
+        align-self: center;
+        padding: 5px;
+        background-color: white;
+        font-size: 16px;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+        align-self: center;
+    }
+    
+    .estudantes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 15%;
+    }
 }
 
-#button2 {
-    background-color: white;
-    width: 120px;
-    height: 70px;
-    border-radius: 40px;
-    font-size: 20px;
-    font-family: "Knewave", system-ui;
-}
+@media (min-width:769px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Roboto Mono", monospace;;
+        background-color: white;
+        font-size: 18px;
+        background-color: grey;
+    }
+    section{
+        box-sizing: border-box;
+        border-radius: 35px;
+        background-color: white;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px;
+        width: 450px;
+        height: 310px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+    }
 
-input[type="text"],
-input[type="number"],
-input[type="password"] {
-  width: 70%;
-  padding: 5px;
-  border: 2px solid rgb(0, 0, 0);
-  background-color: white;
-  font-size: 16px;
-  outline: none;
-  margin-bottom: 10px;
+    #button1 {
+        background-color: white;
+        width: 100px;
+        height: 50px;
+        margin-top: -6px;
+        border-radius: 40px;
+        font-size: 20px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button2 {
+        background-color: white;
+        width: 110px;
+        height: 60px;
+        border-radius: 40px;
+        font-size: 16px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button3 {
+        background-color: white;
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 15px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    #button4 {
+        background-color: white;
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 20px;
+        font-family: "Knewave", system-ui;
+        align-self: center;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="password"] {
+    width: 70%;
+    align-self: center;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    }
+
+    label {
+        width: 70%;
+        align-self: center;
+        padding: 5px;
+        background-color: white;
+        font-size: 16px;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+        align-self: center;
+    }
+    
+    .estudantes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 15%;
+    }
 }
